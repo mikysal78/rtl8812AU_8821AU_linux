@@ -4,14 +4,12 @@ Realtek 8812AU/8821AU USB WiFi driver.
 
 for AC1200 (801.11ac) Wireless Dual-Band USB Adapter
 
-This code is base on version 4.3.14 from https://github.com/diederikdehaas/rtl8812AU
-
-## Known Supported Devices:
-
+## Fast Install
+```sh
+# sudo wget https://raw.githubusercontent.com/mikysal78/rtl8812AU_8821AU_linux/master/auto-install.sh
+# sudo chmod +x auto-install.sh && ./auto-install.sh
 ```
-* COMFAST 1200Mbps USB Wireless Adapter(Model: CF-912AC)
-* TP-LINK AC1200 Wireless Dual Band USB Adapter(Model: Archer-T4U)
-```
+
 
 ## Compiling with DKMS
 
